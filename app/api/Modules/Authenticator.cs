@@ -34,17 +34,17 @@ namespace api.Modules
 
             if (isMalformed)
             {
-                return (false, tokenErr);
+                return (isMalformed, tokenErr);
             }
 
             if (!isAlive)
             {
-                return (false, aliveErr);
+                return (isAlive, aliveErr);
             }
 
             if (!isOwner)
             {
-                return (false, ownerErr);
+                return (isOwner, ownerErr);
             }
 
             return (true, null);

@@ -31,3 +31,16 @@ H:\Repos\Log-Hopper\app\api\obj\Debug\net9.0\refint\api.dll
 H:\Repos\Log-Hopper\app\api\obj\Debug\net9.0\api.pdb
 H:\Repos\Log-Hopper\app\api\obj\Debug\net9.0\api.genruntimeconfig.cache
 H:\Repos\Log-Hopper\app\api\obj\Debug\net9.0\ref\api.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\MySqlConnector.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Repos\Log-Hopper\app\api\obj\Debug\net9.0\api.sourcelink.json
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+H:\Repos\Log-Hopper\app\api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
