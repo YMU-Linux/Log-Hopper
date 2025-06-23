@@ -4,12 +4,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Mvc;
+using api.Modules;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// Add services
 builder.Services.AddAuthorization();
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
@@ -25,18 +25,38 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(); // Optional if you want Swagger UI
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-//app.UseAuthentication();
-//app.UseAuthorization();
-//app.UseHttpsRedirection();
-app.UseEndpoints(endpoints =>
+// Middleware order matters!
+app.UseRouting();
+app.UseAuthentication();
+app.UseAuthorization();
+
+// Swagger (optional)
+app.UseSwagger();
+app.UseSwaggerUI();
+
+// Minimal API endpoints
+app.MapGet("/", () => "Welcome to the Log-Hopper API!");
+
+app.MapGet("/api/health", () => Results.Ok("API is running!"));
+
+// Use POST if you want to read request body
+app.MapPost("/api/login", (LoginRequest data, HttpRequest request) =>
 {
-    endpoints.MapGet("/", () => "Welcome to the Log-Hopper API!");
-    endpoints.MapGet("/api/health", () => Results.Ok("API is running!"));
+    var userAgent = request.Headers["User-Agent"].ToString();
+
+    return Results.Ok(new
+    {
+        Message = "Login received!",
+        Username = data.Username,
+        Password = data.Password,
+        UserAgent = userAgent
+    });
 });
 
-app.UseRouting();
 
 app.Run();
