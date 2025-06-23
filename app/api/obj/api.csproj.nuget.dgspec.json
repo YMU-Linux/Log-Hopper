@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Repos\\Log-Hopper\\app\\api\\api.csproj": {}
+    "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\app\\api\\api.csproj": {}
   },
   "projects": {
-    "H:\\Repos\\Log-Hopper\\app\\api\\api.csproj": {
+    "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\app\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Repos\\Log-Hopper\\app\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\app\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "H:\\Repos\\Log-Hopper\\app\\api\\api.csproj",
+        "projectPath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\app\\api\\api.csproj",
         "packagesPath": "C:\\Users\\yannick.mueller2\\.nuget\\packages\\",
-        "outputPath": "H:\\Repos\\Log-Hopper\\app\\api\\obj\\",
+        "outputPath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\app\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

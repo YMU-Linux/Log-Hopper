@@ -28,8 +28,15 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.UseAuthentication();
-app.UseAuthorization();
-app.UseHttpsRedirection();
+//app.UseAuthentication();
+//app.UseAuthorization();
+//app.UseHttpsRedirection();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapGet("/", () => "Welcome to the Log-Hopper API!");
+    endpoints.MapGet("/api/health", () => Results.Ok("API is running!"));
+});
+
+app.UseRouting();
 
 app.Run();
