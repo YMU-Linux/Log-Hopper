@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using api.Controllers;
 
 namespace api.Controllers
 {
@@ -18,6 +19,7 @@ namespace api.Controllers
         public IActionResult Login([FromBody] LoginRequest data)
         {
             var userAgent = Request.Headers["User-Agent"].ToString();
+            
 
             // Here you can implement your actual login and token generation logic
             var token = "your-jwt-token";
@@ -30,8 +32,8 @@ namespace api.Controllers
                 Username = data.Username,
                 Password = data.Password,
                 UserAgent = userAgent,
-                Token = token
-            });
+                Token =  "Fake Token until .env file added"//new TokenGenerator().GenerateJwtToken(data.Username, "user", 1) // Example role and permission
+        });
         }
 
         [HttpGet]
