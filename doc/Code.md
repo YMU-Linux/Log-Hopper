@@ -32,7 +32,7 @@ public enum Level
 ```cs
 public record User
     {
-        public required string UseCase { get; set; } //
+        public required string UseCase { get; set; }
         public required string UserID { get; set; }
         public required string Password { get; set; }
     }
