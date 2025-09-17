@@ -1,0 +1,10 @@
+/* Make cards fill viewport vertically */
+.full-vh { 
+  min-height: 100vh; 
+}
+
+/* Make the table container scroll if taller than card */
+.table-scroll { 
+  max-height: calc(100vh - 160px); 
+  overflow: auto; 
+}

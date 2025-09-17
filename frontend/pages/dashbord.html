@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container d-flex">
+            <!-- Group brand + button -->
+            <div class="d-flex ms-auto align-items-center">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/person-circle.svg" alt="" width="64rem" height="46rem">
+                </a>
+                <!-- Offcanvas toggle button -->
+                <button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#settingsMenu"
+                    aria-controls="settingsMenu">
+                    <img src="assets/menu.svg" alt="menu" width="64rem" height="46rem">
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="settingsMenu" aria-labelledby="settingsMenuLabel">
+        <div class="offcanvas-header">
+            <h5 id="settingsMenuLabel">Settings</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                et ea rebum.
+            </p>
+        </div>
+    </div>
+
+    <!-- For testing util script done -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ErrorMassage">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ErrorMassage" tabindex="-1" aria-labelledby="ErrorMassageLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ErrorMassageLabel">Error</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="container-fluid full-vh d-flex align-items-center">
+  <div class="row w-100">
+
+    <!-- Left card: JS-generated table will go here -->
+    <div class="col-12 col-md-6 mb-3">
+      <div class="card h-100 shadow">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <h5 class="mb-0">Uploaded Files</h5>
+          <div>
+            <button id="refreshBtn" class="btn btn-sm btn-outline-primary">Refresh</button>
+            <button id="addRowBtn" class="btn btn-sm btn-outline-success">Add Row</button>
+          </div>
+        </div>
+        <div class="card-body p-0">
+          <!-- table container -->
+          <div id="tableContainer" class="table-scroll p-3"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right card: arbitrary content -->
+    <div class="col-12 col-md-6 mb-3">
+      <div class="card h-100 shadow">
+        <div class="card-body">
+          <h5 class="card-title">Logfile Display</h5>
+          <p class="card-text" id="CheckField">Your selected Logfile will show up here.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <div class="alert alert-success" role="alert">
+        <img src="/assets/checkmark-circle.svg" width="26rem" height="26rem"> Files uploaded successfully!
+    </div>
+    <div class="alert alert-warning" role="alert">
+        <img src="/assets/alert-circle.svg" width="26rem" height="26rem"> Warning alert!
+    </div>
+    <div class="alert alert-danger" role="alert">
+        <img src="/assets/warning.svg" width="26rem" height="26rem"> A simple danger alert—check it out!
+    </div>
+</body>
+
+</html>

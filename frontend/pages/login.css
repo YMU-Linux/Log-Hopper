@@ -1,0 +1,27 @@
+body, html {
+  height: 100%;
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.login-card {
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.login-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}

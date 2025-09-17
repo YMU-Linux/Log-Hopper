@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password</title>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+<div class="container h-100 d-flex align-items-center">
+  <div class="login-container w-100">
+    <div class="login-card">
+      <h3 class="login-title text-center">Forgot Password?</h3>
+      <p class="login-text text-center">
+        Enter your email address or username and we’ll send you a link to reset your password.
+      </p>
+
+      <!-- Forgot Password Form -->
+      <form id="forgotPasswordForm">
+        <div class="mb-3">
+          <label for="usernameOrEmail" class="form-label">Username or Email</label>
+          <input type="text" class="form-control" id="usernameOrEmail" placeholder="Enter your username or email" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Send Reset Link</button>
+
+        <p class="text-center mt-3">
+          <a href="Login.html" class="text-decoration-none">Back to Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="auth.js"></script>
+</body>
+</html>
