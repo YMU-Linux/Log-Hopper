@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.1">
+  <diagram name="Seite-1" id="ZZMx1kgYm_eEHnDMBQzK">
+    <mxGraphModel dx="1426" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="239" width="461" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cNoSL5mdsMJKXwTK4Rmr-10" target="cNoSL5mdsMJKXwTK4Rmr-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="354" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cNoSL5mdsMJKXwTK4Rmr-11" target="cNoSL5mdsMJKXwTK4Rmr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-11" value="Load form DB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-13" value="settings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cNoSL5mdsMJKXwTK4Rmr-14" target="cNoSL5mdsMJKXwTK4Rmr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-14" value="Take User Changes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cNoSL5mdsMJKXwTK4Rmr-16" target="cNoSL5mdsMJKXwTK4Rmr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-16" value="Save Changes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cNoSL5mdsMJKXwTK4Rmr-18" value="Apply Settings" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
