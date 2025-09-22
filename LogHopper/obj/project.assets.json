@@ -204,11 +204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yannick.mueller2\\Documents\\LogHopperV2\\LogHopper\\LogHopper\\LogHopper.csproj",
+      "projectUniqueName": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\LogHopper.csproj",
       "projectName": "LogHopper",
-      "projectPath": "C:\\Users\\yannick.mueller2\\Documents\\LogHopperV2\\LogHopper\\LogHopper\\LogHopper.csproj",
+      "projectPath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\LogHopper.csproj",
       "packagesPath": "C:\\Users\\yannick.mueller2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yannick.mueller2\\Documents\\LogHopperV2\\LogHopper\\LogHopper\\obj\\",
+      "outputPath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

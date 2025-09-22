@@ -6,6 +6,11 @@ using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var connectionString = builder.Configuration.GetConnectionString("TestConnection");
+
+// if you use more than one db dont use this
+builder.Services.AddSingleton(new MariaDBController(connectionString));
+
 
 builder.Services.AddControllers();
 
@@ -19,14 +24,14 @@ var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+   // app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllers(); // use controllers instead of MapGroup
+app.MapControllers(); 
 
 app.Run();
