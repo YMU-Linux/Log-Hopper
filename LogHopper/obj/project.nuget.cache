@@ -1,12 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "8Qcb0X+aB4I=",
+  "dgSpecHash": "/tQJRdTblCY=",
   "success": true,
   "projectFilePath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\LogHopper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512"
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\yannick.mueller2\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.14.0\\system.identitymodel.tokens.jwt.8.14.0.nupkg.sha512"
   ],
   "logs": []
 }

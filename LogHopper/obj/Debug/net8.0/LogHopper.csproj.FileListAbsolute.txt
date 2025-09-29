@@ -59,3 +59,8 @@ C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\obj\Debug\net8
 C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\obj\Debug\net8.0\LogHopper.genruntimeconfig.cache
 C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\obj\Debug\net8.0\ref\LogHopper.dll
 C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yannick.mueller2\Desktop\Log-Hopper\Log-Hopper\LogHopper\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

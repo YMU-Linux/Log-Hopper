@@ -2,6 +2,8 @@ using LogHopper.Models;
 using Microsoft.AspNetCore.Mvc;
 using MySqlConnector;
 using System.Data;
+using System.Net;
+using System.Web;
 
 namespace LogHopper.Controllers
 {
@@ -19,9 +21,7 @@ namespace LogHopper.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginRequest payload)
         {
-            if (payload == null ||
-                string.IsNullOrWhiteSpace(payload.Username) ||
-                string.IsNullOrWhiteSpace(payload.Password))
+            if (payload == null || string.IsNullOrWhiteSpace(payload.Username) || string.IsNullOrWhiteSpace(payload.Password))
             {
                 return BadRequest("Username and password are required.");
             }
@@ -37,8 +37,17 @@ namespace LogHopper.Controllers
             DataTable result = await _db.ReadAsync(sql, parameters);
 
             if (result.Rows.Count > 0)
-            {
+            {   
                 string role = result.Rows[0]["RolePower"].ToString();
+                Response.Cookies.Append("Token", "12345ABCXYZ", new CookieOptions
+                {
+                  Expires = DateTime.Now.AddMinutes(5),
+                  HttpOnly = false,
+                  SameSite = SameSiteMode.None
+                    //Secure = true
+                });
+                
+                Response.Redirect(""); // move to Main Page
                 return Ok(new { Success = true, Role = role});
                 
             }

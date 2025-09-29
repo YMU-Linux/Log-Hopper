@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|solutionrelative:loghopper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|solutionrelative:loghopper\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\authentication\\tokenauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|solutionrelative:loghopper\\authentication\\tokenauthhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\controllers\\databasecontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|solutionrelative:loghopper\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|c:\\users\\yannick.mueller2\\desktop\\log-hopper\\log-hopper\\loghopper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98821B29-2AC1-4EDF-9644-503174243D87}|LogHopper\\LogHopper.csproj|solutionrelative:loghopper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TokenAuthHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Authentication\\TokenAuthHandler.cs",
+              "RelativeDocumentMoniker": "LogHopper\\Authentication\\TokenAuthHandler.cs",
+              "ToolTip": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Authentication\\TokenAuthHandler.cs",
+              "RelativeToolTip": "LogHopper\\Authentication\\TokenAuthHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:43:53.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\appsettings.json",
               "RelativeDocumentMoniker": "LogHopper\\appsettings.json",
@@ -38,25 +55,24 @@
               "RelativeToolTip": "LogHopper\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T07:19:28.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T07:19:28.977Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "LogHopper\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Controllers\\AuthController.cs",
               "RelativeToolTip": "LogHopper\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T07:08:32.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DatabaseControler.cs",
               "DocumentMoniker": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Controllers\\DatabaseControler.cs",
               "RelativeDocumentMoniker": "LogHopper\\Controllers\\DatabaseControler.cs",
@@ -64,18 +80,17 @@
               "RelativeToolTip": "LogHopper\\Controllers\\DatabaseControler.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAswCsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T06:58:50.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-22T06:58:50.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Program.cs",
               "RelativeDocumentMoniker": "LogHopper\\Program.cs",
               "ToolTip": "C:\\Users\\yannick.mueller2\\Desktop\\Log-Hopper\\Log-Hopper\\LogHopper\\Program.cs",
               "RelativeToolTip": "LogHopper\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-11T12:34:19.069Z",
               "EditorCaption": ""
